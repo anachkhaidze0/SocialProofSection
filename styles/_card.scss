@@ -1,0 +1,118 @@
+.container{
+    width: 100vw;
+    margin-top: 4.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .main-text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .title{
+                color: $very-dark-magenta;
+                width: 68%;
+                font-size: 1.65rem;
+                line-height: 1.7rem;
+                font-family: Spartan-bold;
+            }
+        
+            .text{
+                margin-top: 1.3rem;
+                color: $dark-grayish-magenta;
+                width: 90%;
+                font-size: 0.76rem;
+                line-height: 1.3rem;
+                font-family: Spartan-semibold;
+            }
+        }
+    
+        .reviews-wrapper{
+            width: 87.5%;
+            margin-top: 1.4rem;
+            .review{
+                background-color: $light-grayish-magenta;
+                border-radius: 0.5rem;
+                padding: 0.3rem;
+                margin-top: 0.8rem;
+    
+    
+    
+                .stars{
+                    margin-top: 0.6rem;
+                    .star-image{
+                        margin-left: 0.1rem;
+                        margin-right: 0.1rem;
+                        width: 0.9rem;
+                    }
+                }
+    
+                .review-text{
+                    margin: 0.5rem;
+                    color: $very-dark-magenta;
+                    font-size: 0.7rem;
+                    font-family: Spartan-bold;
+                }
+            }
+        }
+    }
+
+    .comments-wrapper{
+        margin-top: 1.6rem;
+        .comment{
+            background-color: $very-dark-magenta;
+            padding: 0.4rem 1.5rem;
+            margin: 1.25rem;
+            border-radius: 0.5rem;
+            .acc-info{
+                display: flex;
+                margin-top: 2rem;
+                margin-left: 0.2rem;
+                .acc-img{
+                    width: 2.2rem;
+                    height: 2.2rem;
+                    border-radius: 100%;
+                }
+
+                .name{
+                    color: $white;
+                    font-size: 0.75rem;
+                    font-family: Spartan-semibold;
+                    margin-left: 1.2rem;
+                }
+
+                .verified{
+                    color: $soft-pink;
+                    margin-top: 0.2rem;
+                    font-size: 0.7rem;
+                    margin-left: 1.2rem;
+                }
+            }
+
+            .comment-text{
+                text-align: start;
+                color: $white;
+                margin: 1.2rem 0.2rem;
+                font-size: 0.68rem;
+                line-height: 1.2rem;
+            }
+        }
+    }
+
+    .attribution {
+        font-size: 10px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+}
+

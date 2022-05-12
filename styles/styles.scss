@@ -1,0 +1,15 @@
+// ### Primary
+
+$very-dark-magenta: hsl(300, 43%, 22%);
+$soft-pink: hsl(333, 80%, 67%);
+
+// ### Neutral
+
+$dark-grayish-magenta: hsl(303, 10%, 53%);
+$light-grayish-magenta: hsla(300, 24%, 96%, 0.7);
+$white: hsl(0, 0%, 100%);
+
+
+@import "general";
+@import "card";
+@import "media1440";

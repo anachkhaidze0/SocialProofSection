@@ -1,0 +1,112 @@
+@media screen and (min-width:1440px){
+    .container{
+        margin-top: 7.3rem;
+        text-align: start;
+    
+        .wrapper{
+            flex-direction: row;
+            .main-text{
+                flex-direction: column;
+                margin-left: 7rem;
+                .title{
+                    width: 70%;
+                    font-size: 2.9rem;
+                    line-height: 3rem;
+                }
+            
+                .text{
+                    margin-top: 1.3rem;
+                    width: 70%;
+                    font-size: 0.8rem;
+                    line-height: 1.5rem;
+                }
+            }
+        
+            .reviews-wrapper{
+                width: 80%;
+                margin-top: 1rem;
+                margin-left: 3.5rem;
+                .review{
+                    padding: 0.9rem;
+                    margin-top: 0.8rem;
+                    width: 61.5%;
+                    display: flex;        
+                    .stars{
+                        margin-top: 0.6rem;
+                        .star-image{
+                            margin-left: 0.15rem;
+                            margin-right: 0.15rem;
+                            width: 1rem;
+                        }
+                    }
+        
+                    .review-text{
+                        margin: 0.5rem;
+                        margin-left: 1.9rem;
+                        font-size: 0.85rem;
+                    }
+                }
+                #review-2{
+                    margin-left: 4rem;
+                }
+    
+                #review-3{
+                    margin-left: 8rem;
+                }
+            }
+        }
+    
+        .comments-wrapper{
+            display: flex;
+            flex-direction: row;
+            margin-top: 3rem;
+            .comment{
+                height: 13rem;
+                width: 22rem;
+                padding: 0.4rem 1.5rem;
+                margin: 1.25rem;
+                .acc-info{
+                    margin-top: 2rem;
+                    margin-left: 0.2rem;
+                    .acc-img{
+                        width: 2.2rem;
+                        height: 2.2rem;
+                    }
+    
+                    .name{
+                        font-size: 0.75rem;
+                        margin-left: 1.2rem;
+                    }
+    
+                    .verified{
+                        margin-top: 0.2rem;
+                        font-size: 0.7rem;
+                        margin-left: 1.2rem;
+                    }
+                }
+    
+                .comment-text{
+                    margin: 1.2rem 0.2rem;
+                    font-size: 0.68rem;
+                    line-height: 1.2rem;
+                }
+            }
+
+            #comment-2{
+                margin-top: 3rem;
+            }
+
+            #comment-3{
+                margin-top: 6rem;
+            }
+        }
+    
+        .attribution {
+            font-size: 10px;
+            text-align: center;
+          }
+          .attribution a {
+            color: hsl(228, 45%, 44%);
+          }
+    }   
+}
